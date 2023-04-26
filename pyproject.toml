@@ -5,3 +5,4 @@ dependencies = [
     "music21",
     "z3-solver"
 ]
+readme="README.md"

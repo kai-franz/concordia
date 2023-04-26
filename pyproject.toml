@@ -1,6 +1,6 @@
 [project]
 name = "concordia-harmony"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
     "music21",
     "z3-solver"

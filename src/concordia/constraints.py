@@ -1,7 +1,7 @@
 from music21.pitch import Pitch
 from music21.roman import RomanNumeral
 import itertools as it
-from src.concordia.library import *
+from concordia.library import *
 from music21 import *
 
 

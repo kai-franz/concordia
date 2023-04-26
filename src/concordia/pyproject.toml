@@ -1,0 +1,7 @@
+[project]
+name = "concordia"
+version = "0.0.1"
+dependencies = [
+    "music21",
+    "z3"
+]

@@ -11,15 +11,15 @@ Suppose you are composing some music. You have a beautiful melody, but you donâ€
 - *Provide An open-source and easy-to-install implementation* of the harmony solver, available on here on Github and as a package on [PyPI]("https://pypi.org/project/concordia-harmony/"). An quick demo can be found in `example.ipynb`.
 
 ## Supported Constraints
-| Constraint          | Description |
-|---------------------| --- |
-| Note specification  | Use specific notes at a certain point in the harmony. |
-| Chord specification | Use a specific chord/chord type at a certain position in the progression. |
-| Chord set           | Only use chords specified to compose the harmony. |
+| Constraint          | Description                                                                                   |
+|---------------------|-----------------------------------------------------------------------------------------------|
+| Note specification  | Use specific notes at a certain point in the harmony.                                         |
+| Chord specification | Use a specific chord/chord type at a certain position in the progression.                     |
+| Chord set           | Only use chords specified to compose the harmony.                                             |
 | Voice range         | Soprano cannot sing a really low note; some instruments can only play a small range of notes. |
-| Voice leading       | You might want to restrict the max interval of a jump in the melody. |
-| Chord progression   | Some chords typically do not proceed to some other chords. |
-| Idiomatic uses | Some music events happen with others (e.g. cadences, voice exchange). |
+| Voice leading       | You might want to restrict the max interval of a jump in the melody.                          |
+| Chord progression   | Some chords typically do not proceed to some other chords.                                    |
+| Idiomatic uses      | Some music events happen with others (e.g. cadences, voice exchange).                         |
 
 ## Architecture
 <div style="text-align: center;">
